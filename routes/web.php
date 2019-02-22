@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', function () {
-  return view('welcome');
+  return '';
 });
 
 Route::get('projects/create', 'ProjectsController@create');
